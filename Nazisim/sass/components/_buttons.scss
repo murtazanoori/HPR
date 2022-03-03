@@ -1,0 +1,257 @@
+.btn{
+	&,
+	&:link,
+	&:visited{
+	
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1.5rem 4rem;
+		display: inline-block;
+		border-radius: 10rem;
+		transition: all .2s;
+		position: relative;
+		font-size: $default-font-size;
+
+		border: none;
+		cursor: pointer;
+	}
+	
+	&:hover{
+	
+		transform: translateY(-0.3rem);
+		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	}
+	
+	&:active{
+	
+		outline: none;
+		transform: translateY(-0.3rem);
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+	}
+	
+	&--white{
+	
+		background-color: $color-white;
+		color: gray;
+
+		&::after{
+	
+			background-color: $color-white;
+			
+		}
+	}
+	&--green{
+	
+		background-color: $color-primary;
+		color: $color-primary-dark-gray;
+	}
+	&--green::after{
+	
+		background-color: $color-primary;
+		
+	}
+	
+	&::after{
+	
+		content: "";
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border-radius: 10rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		transition: all .7s;
+	}
+	
+	&:hover::after{
+	
+		transform: scaleX(1.4) scaleY(1.6);
+		opacity: 0;
+	}
+	
+	&--animated{
+	
+		animation: Mbottom .5s ease-out .75s;
+		animation-fill-mode: backwards;
+	}
+	
+
+}
+
+.btno{
+	&,
+	&:link,
+	&:visited{
+	
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1.5rem 4rem;
+		display: inline-block;
+		border-radius: 10rem;
+		transition: all .2s;
+		position: relative;
+		font-size: $default-font-size;
+		margin-left: 3.7rem;
+		margin-top: .4rem;
+		border: none;
+		cursor: pointer;
+	}
+	
+	&:hover{
+	
+		transform: translateY(-0.3rem);
+		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	}
+	
+	&:active{
+	
+		outline: none;
+		transform: translateY(-0.5rem);
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+	}
+		&::after{
+	
+			background-color: $color-white;
+			
+		}
+	&--orange{
+	
+		background-color: $color-red;
+		color: $color-primary-dark-gray;
+	}
+	&--orange::after{
+	
+		background-color: $color-primary-red-light;
+		
+	}
+	
+	&::after{
+	
+		content: "";
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border-radius: 10rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		transition: all .7s;
+	}
+	
+	&:hover::after{
+	
+		transform: scaleX(1.4) scaleY(1.6);
+		opacity: 0;
+	}
+	
+	&--animated{
+	
+		animation: Mbottom .5s ease-out .75s;
+		animation-fill-mode: backwards;
+	}
+}
+
+.btn-text{
+
+	&:link,
+	&:visited{
+
+		font-size: $default-font-size;
+		color: $color-primary;
+		display: inline-block;
+		text-decoration: none;
+		border-bottom: 1px solid $color-primary;
+		padding: 3px;
+		transition: all .2s;
+	}
+	&:hover{
+
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color: black, $alpha: .15);
+    transform: translateY(-2px);
+	}
+	&:active{
+		box-shadow: 0 .5rem 1rem rgba($color: black, $alpha: .15);
+		transform: translateY(0);
+		
+	}
+}
+
+.btn1{
+
+	&,
+	&:link,
+	&:visited{
+	
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1.5rem 4rem;
+		display: inline-block;
+		border-radius: 10rem;
+		transition: all .2s;
+		position: relative;
+		font-size: $default-font-size;
+		margin-top: 3rem;
+		border: none;
+		cursor: pointer;
+	}
+	
+	&:hover{
+	
+		transform: translateY(-0.3rem);
+		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	}
+	
+	&:active{
+	
+		outline: none;
+		transform: translateY(-0.5rem);
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+	}
+		&::after{
+	
+			background-color: $color-white;
+			
+		}
+	&--orange{
+	
+		background-color: $color-black;
+		color: $color-orange;
+	}
+	&--orange::after{
+	
+		background-color: $color-primary-red-light;
+		
+	}
+	
+	&::after{
+	
+		content: "";
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border-radius: 10rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		transition: all .7s;
+	}
+	
+	&:hover::after{
+	
+		transform: scaleX(1.4) scaleY(1.6);
+		opacity: 0;
+	}
+	
+	&--animated{
+	
+		animation: Mbottom .5s ease-out .75s;
+		animation-fill-mode: backwards;
+	}
+}
+
