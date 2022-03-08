@@ -51,7 +51,7 @@ Open the Main HTML file "Nazism"
 DYK is a Basic Android QuizApp its used for enabling users to practice for subjective tests conducted for admissions and recruitment, with focus on Computer science field.
  
  
-##Tech Stack
+## Tech Stack
 
 Java, Android 
 
